@@ -1,0 +1,47 @@
+# Xcode
+## User settings
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+
+## Build products
+build/
+DerivedData/
+*.moved-builder
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Swift Package Manager
+.build/
+Packages/
+Package.pins
+
+# Operating System Files
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Firebase & Security (Crucial for Assignment Submission)
+## Do NOT commit private Firebase config or credentials
+GoogleService-Info.plist
+*firebase-adminsdk*.json
+service-account*.json
+*.keystore
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+
